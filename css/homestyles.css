@@ -1,5 +1,6 @@
 nav{
   margin: 40px 0;
+  margin-left: 40%;
 }
 
 
@@ -9,16 +10,16 @@ nav ul{
 }
 nav li{
   display: inline;
-  font-size: 16px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
 }
 nav li a:link, nav li a:visited {
 text-decoration: none;
-background-color: rgb(229, 194, 66);
+background-color: rgba(234, 212, 147, 0.2);
 color: rgb(38, 37, 35); /* // light black//*/
 border-radius: 2px;
 padding: 4px 8px;
-margin: 3px;
+margin: 20px;
 }
 nav li a:hover{
   background-color: rgb(237, 234, 230);
@@ -39,11 +40,11 @@ h1 ,h2{
     /* left: 0; */
     font-size: 70px;
     /* line-height: 2000px; */
-    margin: auto;
+    /*margin: auto;*/
     /* margin-top: -100px; */
-    /* position: center; */
+     /*position: center;*/
     /* top: 50%; */
-    color: rgb(255,255,255);/*//whitw//*/
+    color: black;/*//whitw//*/
     /* width: 1000%; */
 }
 
@@ -98,7 +99,7 @@ p{
 .tabcontent {
     /* float: left; */
     padding: 0px 12px;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     width: 70%;
     border-left: none;
     height: auto;
